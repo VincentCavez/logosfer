@@ -1,0 +1,50 @@
+
+
+
+.speaker{
+    stroke-width: 3;
+}
+
+.timeBar{
+    stroke:#3dc7e3;
+    stroke-width: 1;
+}
+
+.noteBackground{
+    position: absolute;
+    fill:white;
+    stroke-width: 4;
+    
+}
+
+.noteEditorBackground{
+    position: absolute;
+    fill:rgb(255, 255, 255);
+    stroke-width: 4;
+    opacity: 1;
+}
+
+.noteTitle{
+    position: absolute;
+    font-family: 'Quicksand-Semibold';
+    font-size: 15px;
+}
+
+.noteContent{
+    position: absolute;
+    font-family: 'Quicksand-Regular';
+    font-size: 15px;
+}
+
+
+
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url(fonts/Quicksand-Regular.ttf) format("truetype");
+   }
+  
+@font-face {
+    font-family: "Quicksand-Semibold";
+    src: url(fonts/Quicksand-SemiBold.ttf) format("truetype");
+}
+
